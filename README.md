@@ -26,7 +26,7 @@ Steps to create this multicontainer application.
  ### 2  Start the Docker Service ###
  -  Use `systemctl start docker` to start Docker Service
    
- ### 3   Download the required images: ###
+ ### 3  Download the required images: ###
  - Pull MySQL Image: 
  
     Use `docker pull mysql:5.7` to download the mysql version 5.7 image to use as a database server.
@@ -34,5 +34,32 @@ Steps to create this multicontainer application.
  
     Use `docker pull drupal:8-apache` to download the drupal Image in which apache server is preconfigured.
     
-    
- ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/compose%20yml%20file.PNG?raw=true)
+   ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/docker%20images.PNG?raw=true)
+ ### 4 Docker-Compose ###
+
+ -	 Create a docker-compose file with yml extension using `vim docker-compose.yml`
+ -	 The yml file is
+  
+       ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/compose%20yml%20file.PNG?raw=true)
+
+### 5 start Docker-compose: ###
+ -	Use `docker-compose up -d` to start the docker-compose service in detach mode.
+
+
+ ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/compose%20up.PNG?raw=true)
+ 
+ 
+### 6 Start the Drupal Service ###
+ - Open the web browser and type the ip address with port number. In my case it is 192.168.122.1:8080 
+  
+  ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/duplar.PNG?raw=true)
+
+### 7 stop the docker-compose ###
+ -	Use` docker-compose stop` to stop the docker-compose service
+ 
+   ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/compose%20stop.PNG?raw=true)
+ 
+ 
+ 
+
+
