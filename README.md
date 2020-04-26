@@ -13,18 +13,18 @@ Drupal is a free and open-source content-management framework written in PHP and
 
 MySQL is the world's most popular open source database. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, covering the entire range from personal projects and websites, via e-commerce and information services, all the way to high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more.
 
-Steps to create this multicontainer application.
+ ### Steps to create this multicontainer application. ###
 
  ### 1  Prerequisites ###
- - This project is completely done on RHEL(Red Hat Enterprise Linux)
+ - This project is completely done on RHEL(Red Hat Enterprise Linux).
  - Install docker on the os using the cmd yum install docker.
- - Install docker-compose 
+ - Install docker-compose.
  
   ` curl –L"https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose `
 
 
  ### 2  Start the Docker Service ###
- -  Use `systemctl start docker` to start Docker Service
+ -  Use `systemctl start docker` to start Docker Service.
    
  ### 3  Download the required images: ###
  - Pull MySQL Image: 
@@ -50,12 +50,12 @@ Steps to create this multicontainer application.
  
  
 ### 6 Start the Drupal Service ###
- - Open the web browser and type the ip address with port number. In my case it is 192.168.122.1:8080 
+ - Open the web browser and type the ip address with port number. In my case it is 192.168.122.1:8080. 
   
   ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/duplar.PNG?raw=true)
 
 ### 7 stop the docker-compose ###
- -	Use` docker-compose stop` to stop the docker-compose service
+ -	Use` docker-compose stop` to stop the docker-compose service.
  
    ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/compose%20stop.PNG?raw=true)
  
