@@ -35,4 +35,4 @@ Steps to create this multicontainer application.
     Use `docker pull drupal:8-apache` to download the drupal Image in which apache server is preconfigured.
     
     
- 
+ ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/compose%20yml%20file.PNG?raw=true)
