@@ -17,8 +17,8 @@ MySQL is the world's most popular open source database. With its proven performa
 
  ### 1  Prerequisites ###
  - This project is completely done on RHEL(Red Hat Enterprise Linux).
- - Install docker on the os using the cmd yum install docker.
- - Install docker-compose.
+ - Install docker on the os using the cmd `yum install docker`.
+ - Install docker-compose using the below cmd:
  
   ` curl –L"https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose `
 
