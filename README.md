@@ -40,7 +40,7 @@ MySQL is the world's most popular open source database. With its proven performa
  -	 Create a docker-compose file with yml extension using `vim docker-compose.yml`
  -	 The yml file is
   
-       ![alt text](https://github.com/anandhukrishna1998/Drupal-MySQL1/blob/master/screenshot/compose%20yml%20file.PNG?raw=true)
+      
 
 ### 5 start Docker-compose: ###
  -	Use `docker-compose up -d` to start the docker-compose service in detach mode.
