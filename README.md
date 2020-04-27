@@ -3,7 +3,7 @@
                                  
 
    # **IIEC Docker Project using drupal and mysql**
-This is a multicontainer docker application using drupal and mysql.
+This is a multi-container docker application using drupal and MySQL.
 
 ## **What is docker?**
 
